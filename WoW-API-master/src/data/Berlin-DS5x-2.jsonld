@@ -1,0 +1,42 @@
+{
+  "id": "DS5x-2",
+  "@type": ["saref4watr:WaterDevice", "geo:Feature"],
+  "title": "DS5x-2",
+  "description": "DS5x-2 Located in Berlin at position X",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [125.6, 10.1]
+  },
+  "properties": {
+    "chlorophyl": {
+      "description" : "chlorophyl Measurement",
+      "type": "number",
+      "unit": "",
+      "readOnly": true
+    },
+    "conductivity": {
+      "description" : "conductivity Measurement",
+      "type": "number",
+      "unit": "V",
+      "readOnly": true
+    },
+    "DissolvedOxigen": {
+      "description" : "Dissolved Oxigen Measurement",
+      "type": "number",
+      "unit": "PPM",
+      "readOnly": true
+    },
+    "turbidity": {
+      "description" : "Turbidity Measurement",
+      "type": "number",
+      "unit": "PPM",
+      "readOnly": true
+    },
+    "temperature": {
+      "description" : "Temperature Measurement",
+      "type": "number",
+      "unit": "ºC",
+      "readOnly": true
+    }
+  }
+}

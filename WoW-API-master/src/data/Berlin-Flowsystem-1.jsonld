@@ -1,0 +1,18 @@
+{
+  "id": "Flowsystem-1",
+  "@type": ["saref4watr:WaterDevice", "geo:Feature"],
+  "title": "Flowsystem-1",
+  "description": "FlowSystem-1 Located in Berlin at position X",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [125.6, 10.1]
+  },
+  "properties": {
+    "waterFlow": {
+      "description" : "WaterFlow Measurement",
+      "type": "number",
+      "unit": "m3/s",
+      "readOnly": true
+    }
+  }
+}

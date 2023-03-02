@@ -1,0 +1,22 @@
+{
+  "id": "coap-1",
+  "@type": ["saref4watr:WaterDevice", "geo:Feature"],
+  "title": "Berlin Coap",
+  "description": "A COAP Example server for Berlin",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [125.6, 10.1]
+  },
+  "properties": {
+    "co2": {
+      "description" : "CO2 concentration",
+      "type": "number",
+      "unit": "ppm",
+      "readOnly": true
+    }
+  },
+  "links": [
+    {
+      "href":"coap://localhost:5683"
+    }]
+}

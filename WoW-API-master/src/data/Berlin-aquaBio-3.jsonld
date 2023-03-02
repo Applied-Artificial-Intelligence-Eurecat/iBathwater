@@ -1,0 +1,48 @@
+{
+  "id": "berlin-aquaBio-3",
+  "@type": ["saref4watr:WaterDevice", "geo:Feature"],
+  "title": "Berlin-AquaBio-3",
+  "description": "AquaBio Located in Berlin at position X",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [125.6, 10.1]
+  },
+  "properties": {
+    "ecoli": {
+      "description" : "ecoli Detection Measurement",
+      "type": "number",
+      "unit": "MPN/100ml",
+      "readOnly": true
+    },
+    "enterococci": {
+      "description" : "Enterococci Detection Measurement",
+      "type": "number",
+      "unit": "MPN/100ml",
+      "readOnly": true
+    },
+    "turbidity": {
+      "description" : "Turbidity Measurement",
+      "type": "number",
+      "unit": "V",
+      "readOnly": true
+    },
+    "temperatureReactor": {
+      "description" : "Temperature Reactor Measurement",
+      "type": "number",
+      "unit": "ºC",
+      "readOnly": true
+    },
+    "temperatureCoil": {
+      "description" : "Temperature Coil Measurement",
+      "type": "number",
+      "unit": "ºC",
+      "readOnly": true
+    },
+    "fluorescence": {
+      "description" : "Fluorescence Measurement",
+      "type": "number",
+      "unit": "ºC",
+      "readOnly": true
+    }
+  }
+}

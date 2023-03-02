@@ -1,0 +1,42 @@
+{
+  "id": "barcelona-aquaBio-1",
+  "@type": ["saref4watr:WaterDevice", "geo:Feature"],
+  "title": "AquaBio-1",
+  "description": "AquaBio Port Olimpic E-coli",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [41.3847, 2.1991]
+  },
+  "properties": {
+    "ecoli": {
+      "description" : "ecoli Detection Measurement",
+      "type": "number",
+      "unit": "MPN/100ml",
+      "readOnly": true
+    },
+    "turbidity": {
+      "description" : "Turbidity Measurement",
+      "type": "number",
+      "unit": "V",
+      "readOnly": true
+    },
+    "temperatureReactor": {
+      "description" : "Temperature Reactor Measurement",
+      "type": "number",
+      "unit": "ºC",
+      "readOnly": true
+    },
+    "temperatureCoil": {
+      "description" : "Temperature Coil Measurement",
+      "type": "number",
+      "unit": "ºC",
+      "readOnly": true
+    },
+    "fluorescence": {
+      "description" : "Fluorescence Measurement",
+      "type": "number",
+      "unit": "ºC",
+      "readOnly": true
+    }
+  }
+}

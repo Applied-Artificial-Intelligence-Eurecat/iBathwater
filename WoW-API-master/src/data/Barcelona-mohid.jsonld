@@ -1,0 +1,67 @@
+{
+  "id": "mohid",
+  "@type": ["saref4watr:Model", "geo:Feature"],
+  "title": "Mohid",
+  "description": "Mohid dispersion model",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [41.3847, 2.1991]
+  },
+  "properties": {
+    "velocity_U": {
+      "description" : "Velocity U Measurement",
+      "type": "number",
+      "unit": "m/s",
+      "readOnly": true
+    },
+    "velocity_V": {
+      "description" : "Velocity V Measurement",
+      "type": "number",
+      "unit": "m/s",
+      "readOnly": true
+    },
+    "velocity_W": {
+      "description" : "Velocity W Measurement",
+      "type": "number",
+      "unit": "m/s",
+      "readOnly": true
+    },
+    "velocity_modulus": {
+      "description" : "Velocity modulus Measurement",
+      "type": "number",
+      "unit": "m/s",
+      "readOnly": true
+    },
+    "velocity_direction": {
+      "description" : "Velocity direction Measurement",
+      "type": "number",
+      "unit": "m/s",
+      "readOnly": true
+    },
+    "water_level": {
+      "description" : "Water Level Measurement",
+      "type": "number",
+      "unit": "m",
+      "readOnly": true
+    },
+    "salinity": {
+      "description" : "Salinity Measurement",
+      "type": "number",
+      "unit": "g",
+      "readOnly": true
+    },
+    "fecal_coliforms": {
+      "description" : "Fecal Coliforms Measurement",
+      "type": "number",
+      "unit": "",
+      "readOnly": true
+    },
+    "eColi": {
+      "description" : "eColi Measurement",
+      "type": "number",
+      "unit": "PPM",
+      "readOnly": true
+    }
+
+  }
+}

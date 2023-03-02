@@ -1,0 +1,18 @@
+{
+  "id": "Battery-1",
+  "@type": ["saref4watr:WaterDevice", "geo:Feature"],
+  "title": "Battery-1",
+  "description": "Battery-1 Located in Berlin at position X",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [125.6, 10.1]
+  },
+  "properties": {
+    "voltage": {
+      "description" : "Voltage Measurement",
+      "type": "number",
+      "unit": "V",
+      "readOnly": true
+    }
+  }
+}

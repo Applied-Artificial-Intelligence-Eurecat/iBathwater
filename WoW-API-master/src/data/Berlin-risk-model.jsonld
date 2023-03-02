@@ -1,0 +1,29 @@
+{
+  "id": "risk-model",
+  "@type": ["saref4watr:Model", "geo:Feature"],
+  "title": "Berlin Risk Model",
+  "description": "A Risk Model for Berlin",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [125.6, 10.1]
+  },
+  "properties": {
+    "ecoliConcentration": {
+      "description" : "E-Coli concentration",
+      "type": "object",
+      "unit": "percentile",
+      "readOnly": true
+    },
+    "waterQuality": {
+      "description" : "Water Quality State",
+      "type": "text",
+      "enum": ["excellent", "good", "sufficient", "poor"],
+      "readOnly": true
+    }
+  },
+  "links": [
+    {
+      "href": "https://ibathwater.herokuapp.com/flussbad/predictions"
+    }
+  ]
+}
